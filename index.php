@@ -25,7 +25,13 @@ if ($user) {
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <script type="text/javascript" >
+
   window.fbAsyncInit = function() {
+    function gotoQR()
+    {
+      var myMessage="<?php echo $facebook->getAccessToken(); ?>";
+      window.open("http://jameskong.local/app/canvas/testQRCode.php?data="+myMessage,'_self');
+    }
     FB.init({
       appId: '<?php echo $facebook->getAppID() ?>',
       cookie: true,
@@ -39,8 +45,7 @@ if ($user) {
       window.location.reload();
     });
     FB.Event.subscribe('edge.create', function(response) {
-      window.open("http://jameskong.local/app/canvas/testQRCode.php?data=<?php echo $facebook->getAccessToken(); ?>",'_self');
-      alert("like");
+      gotoQR();
     });
 
     FB.Event.subscribe('edge.remove', function(response) {
@@ -57,7 +62,7 @@ if ($user) {
             console.log("LIKE");
             $('#container_notlike').hide();
             $('#container_like').show();
-            window.open("http://jameskong.local/app/canvas/testQRCode.php?data=<?php echo $facebook->getAccessToken(); ?>",'_self');
+            gotoQR();
           } else {
             console.log("NO LIKEY");
             $('#container_like').hide();
@@ -74,7 +79,7 @@ if ($user) {
                 console.log("LIKE");
                 $('#container_notlike').hide();
                 $('#container_like').show();
-                window.open("http://jameskong.local/app/canvas/testQRCode.php?data=<?php echo $facebook->getAccessToken(); ?>",'_self');
+                gotoQR();
               } else {
                 console.log("NO LIKEY");
                 $('#container_like').hide();

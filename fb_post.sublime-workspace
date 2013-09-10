@@ -109,6 +109,9 @@
 	"file_history":
 	[
 		"/Library/WebServer/Documents/app/canvas/index.php",
+		"/Library/WebServer/Documents/app/canvas/qrbitstream.php",
+		"/Library/WebServer/Documents/app/canvas/fb_post.sublime-workspace",
+		"/Library/WebServer/Documents/app/canvas/js/main.js",
 		"/Library/WebServer/Documents/app/canvas/testQRCode.php",
 		"/Users/jameskong/Sites/fb-bot/post.sh",
 		"/Users/jameskong/Sites/fb-bot/acces_stoken.php",
@@ -232,10 +235,7 @@
 		"/Users/jameskong/Development/fishkingsin.github.io/.gitignore",
 		"/Users/jameskong/Development/fishkingsin.github.io/點滴在癦頭/index.html",
 		"/Users/jameskong/Development/fishkingsin.github.io/main.js",
-		"/Users/jameskong/Development/fishkingsin.github.io/js/main.js",
-		"/Users/jameskong/Development/fishkingsin.github.io/index.html",
-		"/Users/jameskong/Development/Android/WristbandProject/Wristband/AndroidManifest.xml",
-		"/Users/jameskong/Development/CreativeJS/ioJK/index.html"
+		"/Users/jameskong/Development/fishkingsin.github.io/js/main.js"
 	],
 	"find":
 	{
@@ -254,6 +254,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"current",
 			"Log.d",
 			"Log.v",
 			"loadjscssfile",
@@ -380,8 +381,7 @@
 			"iResolution",
 			"iGlobalTime",
 			"wrist",
-			"light",
-			"lighting"
+			"light"
 		],
 		"highlight": true,
 		"in_selection": false,
