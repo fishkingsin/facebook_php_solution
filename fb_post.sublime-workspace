@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"swipe",
+				"swipeDir"
+			],
+			[
+				"ap",
+				"appendChild"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"fun",
+				"Snippet: Anonymous Function"
+			],
+			[
+				"func",
+				"Snippet: Function"
+			],
+			[
+				"if",
+				"Snippet: if … else"
+			],
+			[
+				"sni",
+				"Snippet: Object Method"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/app/canvas/index.php",
+		"/Library/WebServer/Documents/app/canvas/testQRCode.php",
+		"/Users/jameskong/Sites/fb-bot/post.sh",
+		"/Users/jameskong/Sites/fb-bot/acces_stoken.php",
+		"/Users/jameskong/Sites/svg/index.html",
+		"/Users/jameskong/Sites/svg/assets/tiger.svg",
+		"/Users/jameskong/Development/RaspberryPi/raspiLapseCam.py",
+		"/Users/jameskong/Development/ios-feature-es2/apps/devApps/iosES2RendererExample/src/main.mm",
+		"/Users/jameskong/Development/ios-feature-es2/apps/devApps/iosES2RendererExample/src/testApp.h",
+		"/Users/jameskong/Development/ios-feature-es2/apps/devApps/iosES2RendererExample/src/testApp.mm",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/examples/ios/iosES2ShaderExample/src/testApp.mm",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/examples/ios/iosES2ShaderExample/src/testApp.h",
+		"/Users/jameskong/Development/PE126/.gitignore",
+		"/Users/jameskong/Development/PE126/WristbandAPI/src/com/idthk/wristband/api/BLEBaseFragmentActivity.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/InstructionActivity.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/MainFragmentPager.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/PreferencesActivity.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/ScreenSlidePageFragment.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/StatisticFragmentPager.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/StatisticSlidePageFragment.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/preference/MyDialogPreference.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/preference/NumberPickerPreference.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/preference/PhotoPickerPreference.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/socialnetwork/FacebookShareActivity.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/socialnetwork/TwitterShareActivity.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/Main.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/TabFragmentActivityStatistic.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/TabFragmentSleepStatistic.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/TabsFragment.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/Utilities.java",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/examples/gl/gpuParticleSystemExample/src/main.cpp",
+		"/Users/jameskong/Sites/facebook/index.php",
+		"/Users/jameskong/Sites/upload.php",
+		"/Users/jameskong/Development/Android/android_wallpaper_yinyang/README.md",
+		"/Users/jameskong/Desktop/MscgenDoc/example01",
+		"/Users/jameskong/Development/cocos2d-x-2.1.4/testApp/proj.android/build_native.sh",
+		"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/js/three.canvas1.js",
+		"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/js/three.canvas2.js",
+		"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/js/three.canvas3.js",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/examples/3d/meshFromCamera/src/testApp.cpp",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/apps/myApps/shaderTest02/bin/data/shaders/shader.frag",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/apps/myApps/shaderTest02/bin/data/shaders/shader.vert",
+		"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/index.html",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/examples/ios/videoGrabberExample/src/testApp.mm",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/examples/ios/videoGrabberExample/src/testApp.h",
+		"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/workerExample/main.js",
+		"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/workerExample/index.html",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/examples/gl/shaderExample/bin/data/shaders_gl3/noise.frag",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/examples/gl/shaderExample/bin/data/shaders_gl3/noise.vert",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/apps/myApps/SlitScanMove/bin/data/shaders/shader.frag",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/addons/ofxDelaunay/src/ofxDelaunay.cpp",
+		"/Users/jameskong/Development/ShellScripts/build_buttons.sh",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/addons/ofxFontStash/example_ios/ofxiOS-Info.plist",
+		"/Volumes/OSPDSCOMMON/_MEEP 2013/_Graphic Design/MEEP!X2 website/_HTML/DE/index.html",
+		"/Users/jameskong/Development/PE126/.git/config",
+		"/Users/jameskong/Development/backup/Wristband/src/com/idthk/wristband/ui/Main.java",
+		"/Users/jameskong/Development/PE126/.git/commit-msg",
+		"/Users/jameskong/Development/PE126/.git/commit-msg.sh",
+		"/Users/jameskong/Development/PE126/change_author.sh",
+		"/Users/jameskong/Downloads/re-enable_java_6.sh.txt",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/MainFragment.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/CustomProgressBar.java",
+		"/Users/jameskong/Development/PE126/Wristband/src/com/idthk/wristband/ui/MyWebView.java",
+		"/Users/jameskong/Downloads/tab_indicator.xml",
+		"/Users/jameskong/Downloads/activity_main.xml",
+		"/Users/jameskong/Downloads/AdmobExample/AndroidManifest.xml",
+		"/Users/jameskong/Development/Android/android-plist-parser/android-plist-parser-test/src/com/longevitysoft/android/test/plist/xml/PListXMLParserTest.java",
+		"/Users/jameskong/Development/Android/android-plist-parser/android-plist-parser-test/src/com/longevitysoft/android/test/plist/xml/PListXMLHandlerTest.java",
+		"/Users/jameskong/Development/cocos2d-x-2.1.4/Mole_Android/proj.android/build_native.sh",
+		"/Users/jameskong/Documents/workspace/Mole-Android/AndroidManifest.xml",
+		"/Users/jameskong/Development/of_v0.8.0_android_release/apps/myApps/androidMultiView/src/testApp.h",
+		"/Users/jameskong/Development/of_v0.8.0_android_release/apps/myApps/androidMultiView/src/testApp.cpp",
+		"/Users/jameskong/Development/of_v0.8.0_android_release/apps/myApps/androidMultiView/bin/data/GUI/guiSettings1.xml",
+		"/Users/jameskong/Development/of_v0.8.0_android_release/addons/ofxUI/src/ofxUI.h",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/addons/ofxUI/src/ofxUI.h",
+		"/Users/jameskong/Development/CreativeJS/ModelViewer/index.html",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/addons/ofxFft/example-basic/src/testApp.h",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/addons/ofxFft/example-basic/src/testApp.cpp",
+		"/Users/jameskong/Development/Sparrow-Framework/projects/Mole/src/data/lbt_holy-tricky_male.plist",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/addons/ofxFft/readme.md",
+		"/Users/jameskong/Development/three.js/test/benchmark/benchmarking_vector3storage.html",
+		"/Users/jameskong/Development/three.js/examples/webgl_materials_video.html",
+		"/Users/jameskong/Development/three.js/examples/webgl_buffergeometry_particles.html",
+		"/Users/jameskong/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jameskong/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/js/three.canvas.js",
+		"/Users/jameskong/Development/three.js/examples/canvas_particles_waves.html",
+		"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/js/three_main.js",
+		"/Users/jameskong/Development/of_v0.8.0_osx_release/CHANGELOG.md",
+		"/Users/jameskong/Development/nodeJSProjects/router.js",
+		"/Users/jameskong/Development/nodeJSProjects/index.js",
+		"/Users/jameskong/Development/nodeJSProjects/server.js",
+		"/Users/jameskong/Library/Application Support/Sublime Text 2/Packages/User/nodejs.sublime-build",
+		"/Users/jameskong/Development/nodeJSProjects/helloworld.js",
+		"/Users/jameskong/Development/Python/testWeb/web.py",
+		"/Users/jameskong/Development/of_v0.8.0_android_release/libs/openFrameworksCompiled/project/android/paths.make",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/examples/ios/iosES2ShaderExample/bin/data/shaders/noise.vert",
+		"/Users/jameskong/Development/of_v0.8.0_ios_release/examples/ios/iosES2ShaderExample/bin/data/shaders/noise.frag",
+		"/Users/jameskong/Development/RORProjects/testKoala/myApp/Gemfile",
+		"/Users/jameskong/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/Facebook Sample/SocialNetwork/src/com/example/socialnetwork/ProgressHUD.java",
+		"/Users/jameskong/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/Facebook Sample/SocialNetwork/src/com/example/socialnetwork/MainActivity.java",
+		"/Users/jameskong/Downloads/cocos2d-x-2.1.4/samples/Cpp/SimpleGame/proj.android/build_native.sh",
+		"/Users/jameskong/Development/Python/fbconsoleLogin.py",
+		"/Users/jameskong/Development/Python/fbLogin.py",
+		"/Users/jameskong/Development/RORProjects/testShop/my_store/app/assets/javascripts/admin/all.js",
+		"/Users/jameskong/Development/RORProjects/testShop/my_store/Gemfile",
+		"/Users/jameskong/Development/identicon/identicon.sh",
+		"/Users/jameskong/Development/RORProjects/testApp/blog/app/views/welcome/index.html.erb",
+		"/Users/jameskong/Development/RORProjects/testApp/blog/app/controllers/posts_controller.rb",
+		"/Users/jameskong/Development/RORProjects/testApp/blog/config/routes.rb",
+		"/Users/jameskong/Development/RORProjects/testApp/blog/app/views/posts/show.html.erb",
+		"/Users/jameskong/Development/RORProjects/testApp/blog/app/views/posts/new.html.erb",
+		"/Users/jameskong/Development/RORProjects/testApp/blog/config/application.rb",
+		"/Users/jameskong/Development/RORProjects/testApp/blog/config.ru",
+		"/Users/jameskong/Development/cocoa2dProject/HKLLL/Classes/Resources/animation.plist",
+		"/Users/jameskong/Downloads/AnimBear/AnimBear/Resources/AnimBear.plist",
+		"/Users/jameskong/Development/CreativeJS/ImageSequence/main.js",
+		"/Users/jameskong/Development/CreativeJS/ImageSequence/index.html",
+		"/Users/jameskong/Development/Android/WristbandProject/.git/config",
+		"/Users/jameskong/Downloads/cocos2d-x-2.1.4/create-android-project.sh",
+		"/Users/jameskong/Downloads/Cocos2dxSimpleGame/create-android-project.sh",
+		"/Users/jameskong/Development/fishkingsin.github.io/.gitignore",
+		"/Users/jameskong/Development/fishkingsin.github.io/點滴在癦頭/index.html",
+		"/Users/jameskong/Development/fishkingsin.github.io/main.js",
+		"/Users/jameskong/Development/fishkingsin.github.io/js/main.js",
+		"/Users/jameskong/Development/fishkingsin.github.io/index.html",
+		"/Users/jameskong/Development/Android/WristbandProject/Wristband/AndroidManifest.xml",
+		"/Users/jameskong/Development/CreativeJS/ioJK/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Log.d",
+			"Log.v",
+			"loadjscssfile",
+			"random",
+			"BrowserDetect",
+			"dataBrowser",
+			"example_ios",
+			"src/",
+			"src",
+			"script",
+			"\"<New Name>\"",
+			"Log.d",
+			"Log.",
+			"ScreenSlidePageFragment",
+			"// TODO Auto-generated catch block",
+			"TODO Auto-generated catch block",
+			"confirm",
+			"save",
+			"assertEquals",
+			"get",
+			"mdpi",
+			"40",
+			"hdpi",
+			"60%",
+			"covert",
+			"ldpi",
+			"hd",
+			"ldpi",
+			"hd",
+			"NDK_ROOT",
+			"landscape",
+			"randomizeViewports",
+			"drawViewportOutline",
+			"camera",
+			"new",
+			"  ",
+			"obj",
+			"expected",
+			"Element",
+			"button",
+			"THREE",
+			"colors",
+			"particleSystem",
+			"build",
+			"Hash",
+			"NDK_ROOT",
+			"NDK",
+			"hash",
+			"-h",
+			"3000",
+			",296}",
+			"{233,145}",
+			"{233,145}}",
+			"grossini_dance_",
+			"<<<<<<<",
+			">>>",
+			"====",
+			">>",
+			"HEAD",
+			"<<<<<<< HEAD",
+			">>>>>",
+			"full",
+			"fullsc",
+			"californiaPts",
+			"californiaShape",
+			"state",
+			"draw",
+			"line",
+			"addLine",
+			"addBox",
+			"callback",
+			"frame",
+			"facebook_share_textfield",
+			"swipeListener",
+			"OnSwipeTouchListener",
+			"touch",
+			"7-12",
+			"HH:mm",
+			",",
+			"\n,",
+			"\n",
+			":",
+			"07-08 16:37:11.321: V/BLEBaseFragmentActivity(22779): printByteArray : ",
+			"07-08 16:37:11.311: V/BLEBaseFragmentActivity(22779): printByteArray : ",
+			"6e",
+			"picture",
+			"c231ff08-8d74-4fa9-a7dd-13abdfe5cbff",
+			"com.idthk.wristband.ui.R",
+			"BarGraphView",
+			"scroll_pager",
+			"ScrollPagerMain",
+			"scroll_pager",
+			"pager2",
+			"LayoutInflater",
+			"tab_image",
+			"\"00:00\"",
+			"\"lastSyncTime\"",
+			"\"profile_pic\"",
+			"profile_pic",
+			"key",
+			"\"profile_pic\"",
+			"\"",
+			"\"prefUsername\"",
+			"getTempFile",
+			"mContext",
+			"ACTION_FILTER",
+			"finish",
+			"tabhost",
+			"org.idthk.wristbandui",
+			"FragmentTab",
+			"Orientation",
+			"Ori",
+			"Orien",
+			"Orientation",
+			"invalidateOptionsMenu",
+			"getFragmentManager",
+			"ScreenSlidePagerAdapter",
+			"ScreenSlidePageFragment",
+			"pnoise",
+			">>>>>>>",
+			"-",
+			"texture2D(",
+			"iChannel0",
+			"iResolution",
+			"iGlobalTime",
+			"wrist",
+			"light",
+			"lighting"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Utilities.getLog",
+			"\"$New_Name\"",
+			"",
+			"cancel",
+			"confirm",
+			"hdpi",
+			"70",
+			"xhdpi",
+			"40%",
+			"convert",
+			"hdpi",
+			"ldpi",
+			"portrait",
+			" ",
+			",200}",
+			"{142,200}",
+			"{142,200}}",
+			"image_",
+			"Pts",
+			", (byte)",
+			",",
+			"",
+			"com.idthk.wristband.R",
+			"\"@string/default_last_sync_time\"",
+			"getString(R.string.key_last_sync_time)",
+			"getString(R.string.key_profile_pic)",
+			"getString(R.string.key_user_name)",
+			"com.idthk.wristband.ui",
+			",(byte)0x",
+			"texture2DRect(",
+			"u_tex_unit0",
+			"u_time",
+			"64",
+			"(byte) 0xAA",
+			", (byte) 0x",
+			"(byte),0x",
+			"billboardExample",
+			"bio",
+			"string",
+			"",
+			"height",
+			"width",
+			"window.innerWidth",
+			"fire("
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 200.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"faceboo",
+				"gen/com/facebook/android/R.java"
+			],
+			[
+				"user_profile",
+				"res/layout/user_profile.xml"
+			],
+			[
+				"activity_indicator",
+				"res/layout/activity_indicator_landscape.xml"
+			],
+			[
+				"mprogress",
+				"src/com/idthk/wristband/ui/CustomProgressBar.java"
+			],
+			[
+				"indicato",
+				"src/com/idthk/wristband/ui/SaundProgressIndicator.java"
+			],
+			[
+				"progress_",
+				"res/layout/progress_hud.xml"
+			],
+			[
+				"activity",
+				"src/com/idthk/wristband/socialnetwork/TwitterShareActivity.java"
+			],
+			[
+				"activity.java",
+				"src/com/idthk/wristband/ui/LandscapeActivity.java"
+			],
+			[
+				"launchingpreferences",
+				"src/com/example/android/apis/preference/LaunchingPreferences.java"
+			],
+			[
+				"animation1",
+				"src/com/example/android/apis/view/LayoutAnimation1.java"
+			],
+			[
+				"ofxandroid",
+				"addons/ofxAndroid/src/ofxAndroidApp.h"
+			],
+			[
+				"ofevent",
+				"libs/openFrameworks/events/ofEvents.h"
+			],
+			[
+				"ofxandroidapp",
+				"addons/ofxAndroid/src/ofxAndroidApp.h"
+			],
+			[
+				"ofxandroidswip",
+				"addons/ofxAndroid/src/ofAppAndroidWindow.cpp"
+			],
+			[
+				"ofxandroidswi",
+				"addons/ofxAndroid/src/ofAppAndroidWindow.cpp"
+			],
+			[
+				"",
+				"/private/var/folders/zr/jgmjq09n0fqfcs5s0zlh5c580000gn/T/cf682d14-2da7-46d3-bc26-778ce36363a7/public_html/home/index.html"
+			],
+			[
+				"tur",
+				"src/com/manuelnaranjo/btle/test1/InquiryActivity.java"
+			],
+			[
+				"activ",
+				"src/com/manuelnaranjo/btle/test1/MainActivity.java"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"main",
+				"main.js"
+			],
+			[
+				"android",
+				"addons/ofxAndroid/ofAndroidLib/AndroidManifest.xml"
+			],
+			[
+				"mysqlitehelper",
+				"src/com/example/testdatabaseactivity/MySQLiteHelper.java"
+			],
+			[
+				"data",
+				"src/com/example/testdatabaseactivity/CommentsDataSource.java"
+			],
+			[
+				"activi",
+				"src/com/example/testdatabaseactivity/TestDatabaseActivity.java"
+			],
+			[
+				"acti",
+				"bin/TestDatabaseActivity.apk"
+			],
+			[
+				"health",
+				"src/com/example/bluetooth/health/BluetoothHDPService.java"
+			],
+			[
+				"bluetoothhealth",
+				"src/com/example/bluetooth/health/BluetoothHDPActivity.java"
+			],
+			[
+				"mani",
+				"AndroidManifest.xml"
+			],
+			[
+				"string",
+				"res/values/strings.xml"
+			],
+			[
+				"emptymain",
+				"apps/myApps/emptyExample/src/main.cpp"
+			],
+			[
+				"testapp",
+				"apps/myApps/emptyExample/src/testApp.cpp"
+			],
+			[
+				"myclass",
+				"apps/myApps/emptyExample/src/MyClass"
+			],
+			[
+				"emptyexample/src",
+				"apps/myApps/emptyExample/src/testApp.cpp"
+			],
+			[
+				"test",
+				"myApps/emptyExample/src/testApp.cpp"
+			],
+			[
+				"te",
+				"/Users/jameskong/Desktop/test.js"
+			],
+			[
+				"testap",
+				"myApps/emptyExample/src/testApp.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 423.0,
+	"status_bar_visible": true
+}
