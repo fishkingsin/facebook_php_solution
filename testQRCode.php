@@ -41,9 +41,9 @@
     
     //processing form input
     //remember to sanitize user input in real-life solution !!!
-    $errorCorrectionLevel = 'H';
+    $errorCorrectionLevel = 'M';
 
-    $matrixPointSize = 16;
+    $matrixPointSize = 8;
 
 
     if (isset($_REQUEST['data'])) { 
