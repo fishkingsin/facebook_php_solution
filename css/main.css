@@ -5,6 +5,10 @@ margin-right:auto;
 width:150%;
 background-color:#b0e0e6;
 }
+.fit {
+  max-width: 100%;
+  max-height: 100%;
+}
 /*div#main{
 display: block;
 		position: relative;

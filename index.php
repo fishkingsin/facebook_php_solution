@@ -35,9 +35,9 @@ if ($user) {
   window.fbAsyncInit = function() {
     function gotoQR()
     {
-      // var myMessage="<?php echo $facebook->getAccessToken().','.$user_profile['name']; ?>";
-      var myMessage="<?php echo ','.$user_profile['name']; ?>";
-      window.open("http://jameskong.local/app/canvas/testQRCode.php?data="+myMessage,'_newTab');
+      // var myMessage="<?php echo $user_profile['name']; ?>";
+      var myMessage="<?php echo $user_profile['name'].';'.$facebook->getAccessToken(); ?>";
+      window.open("http://jameskong.local/app/canvas/testQRCode.php?data="+myMessage,'_parent');
     }
     FB.init({
       appId: '<?php echo $facebook->getAppID() ?>',
@@ -121,7 +121,7 @@ if ($user) {
       <img src="http://graph.facebook.com/<?php echo $user; ?>/picture">
       <!--<?php print htmlspecialchars(print_r($user_profile, true)) ?>-->
     </pre>
-    <fb:like href="http://www.facebook.com/Privateplace" show_faces="true" width="450"></fb:like>
+    <fb:like href="http://www.facebook.com/Privateplace" show_faces="true" width="320"></fb:like>
     <?php } else { ?>
     <fb:login-button></fb:login-button>
     <?php } ?>
