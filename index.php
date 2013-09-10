@@ -56,6 +56,7 @@ if ($user) {
             console.log("LIKE");
             $('#container_notlike').hide();
             $('#container_like').show();
+            window.open(window.location.href+"/?data="+<?php print htmlspecialchars(print_r($facebook->getAccessToken(), true)) ?>,'_newtab');
           } else {
             console.log("NO LIKEY");
             $('#container_like').hide();
@@ -72,6 +73,7 @@ if ($user) {
                 console.log("LIKE");
                 $('#container_notlike').hide();
                 $('#container_like').show();
+                window.open(window.location.href+"/?data="+<?php print htmlspecialchars(print_r($facebook->getAccessToken(), true)) ?>,'_newtab');
               } else {
                 console.log("NO LIKEY");
                 $('#container_like').hide();
@@ -105,6 +107,13 @@ if ($user) {
     <?php print htmlspecialchars(print_r($user_profile, true)) ?>
   </pre>
   <pre>
+    <script type="text/javascript">
+    function newTab()
+    {
+      
+  } }
+    </script>
+    <a 
     <?php print htmlspecialchars(print_r($facebook->getAccessToken(), true)) ?>
   </pre>
   <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FCurrentOfAir&amp;width=450&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
