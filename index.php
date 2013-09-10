@@ -68,8 +68,12 @@ if ($user) {
           status     : true, // check login status
           cookie     : true, // enable cookies to allow the server to access the session
           xfbml      : true  // parse XFBML
-        });
-
+          });
+        FB.Event.subscribe('edge.create',
+          function(response) {
+              alert('You liked the URL: ' + response);
+          }
+         );
         FB.getLoginStatus(function(response) {
           var page_id = "229661030501037";
           if (response && response.authResponse) {
@@ -111,7 +115,7 @@ if ($user) {
           }
         });
       };
-
+      
       // Load the SDK Asynchronously
       (function(d){
         var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
@@ -122,11 +126,13 @@ if ($user) {
     </script>
      <div id="container_notlike">
       YOU DON'T LIKE ME :(
+
     </div>
 
     <div id="container_like">
       YOU LIKE ME :)
     </div>
+    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2FCurrentOfAir&amp;width=450&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=true&amp;appId=377324959056043" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
 
   </body>
 </html>
