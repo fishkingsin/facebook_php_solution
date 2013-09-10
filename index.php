@@ -14,6 +14,8 @@ if ($user) {
   try {
     // Proceed knowing you have a logged in user who's authenticated.
     $user_profile = $facebook->api('/me');
+
+
   } catch (FacebookApiException $e) {
     echo '<pre>'.htmlspecialchars(print_r($e, true)).'</pre>';
     $user = null;
@@ -24,13 +26,18 @@ if ($user) {
 <!DOCTYPE html>
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <style type="text/css" src="css/main.css"></style>
   <script type="text/javascript" >
 
   window.fbAsyncInit = function() {
     function gotoQR()
     {
-      var myMessage="<?php echo $facebook->getAccessToken(); ?>";
-      window.open("http://jameskong.local/app/canvas/testQRCode.php?data="+myMessage,'_self');
+      // var myMessage="<?php echo $facebook->getAccessToken().','.$user_profile['name']; ?>";
+      var myMessage="<?php echo ','.$user_profile['name']; ?>";
+      window.open("http://jameskong.local/app/canvas/testQRCode.php?data="+myMessage,'_newTab');
     }
     FB.init({
       appId: '<?php echo $facebook->getAppID() ?>',
@@ -59,14 +66,14 @@ if ($user) {
         var fql_query = "SELECT uid FROM page_fan WHERE page_id = "+page_id+"and uid="+user_id;
         FB.Data.query(fql_query).wait(function(rows) {
           if (rows.length == 1 && rows[0].uid == user_id) {
-            console.log("LIKE");
-            $('#container_notlike').hide();
-            $('#container_like').show();
+            // console.log("LIKE");
+            // $('#container_notlike').hide();
+            // $('#container_like').show();
             gotoQR();
           } else {
-            console.log("NO LIKEY");
-            $('#container_like').hide();
-            $('#container_notlike').show();
+            // console.log("NO LIKEY");
+            // $('#container_like').hide();
+            // $('#container_notlike').show();
           }
         });
       } else {
@@ -76,20 +83,20 @@ if ($user) {
             var fql_query = "SELECT uid FROM page_fan WHERE page_id = "+page_id+"and uid="+user_id;
             FB.Data.query(fql_query).wait(function(rows) {
               if (rows.length == 1 && rows[0].uid == user_id) {
-                console.log("LIKE");
-                $('#container_notlike').hide();
-                $('#container_like').show();
+                // console.log("LIKE");
+                // $('#container_notlike').hide();
+                // $('#container_like').show();
                 gotoQR();
               } else {
-                console.log("NO LIKEY");
-                $('#container_like').hide();
-                $('#container_notlike').show();
+                // console.log("NO LIKEY");
+                // $('#container_like').hide();
+                // $('#container_notlike').show();
               }
             });
           } else {
-            console.log("NO LIKEY");
-            $('#container_like').hide();
-            $('#container_notlike').show();
+            // console.log("NO LIKEY");
+            // $('#container_like').hide();
+            // $('#container_notlike').show();
           }
         }, {scope: 'user_likes'});
       }
@@ -107,26 +114,24 @@ if ($user) {
   <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
 </head>
 <body>
-  <?php if ($user) { ?>
-  Your user profile is
-  <pre>
-    <?php print htmlspecialchars(print_r($user_profile, true)) ?>
-  </pre>
-  <pre>
-    
-    <a 
-    <?php print htmlspecialchars(print_r($facebook->getAccessToken(), true)) ?>
-  </pre>
-  <fb:like href="http://www.facebook.com/Privateplace" show_faces="true" width="450"></fb:like>
-  <?php } else { ?>
-  <fb:login-button></fb:login-button>
-  <?php } ?>
-  <div id="fb-root"></div>
-  <div id="container_notlike">
-    YOU DON'T LIKE ME :(
-  </div>
-  <div id="container_like">
-    YOU LIKE ME :)
-  </div>
+  <center class="body row scroll-y">
+    <?php if ($user) { ?>
+    <!--Your user profile is-->
+    <pre>
+      <img src="http://graph.facebook.com/<?php echo $user; ?>/picture">
+      <!--<?php print htmlspecialchars(print_r($user_profile, true)) ?>-->
+    </pre>
+    <fb:like href="http://www.facebook.com/Privateplace" show_faces="true" width="450"></fb:like>
+    <?php } else { ?>
+    <fb:login-button></fb:login-button>
+    <?php } ?>
+    <div id="fb-root"></div>
+    <!-- <div id="container_notlike">
+      YOU DON'T LIKE ME :(
+    </div>
+    <div id="container_like">
+      YOU LIKE ME :)
+    </div> -->
+  </center>
 </body>
 </html>
