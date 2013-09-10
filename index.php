@@ -39,6 +39,7 @@ if ($user) {
       window.location.reload();
     });
     FB.Event.subscribe('edge.create', function(response) {
+      window.open("http://jameskong.local/app/canvas/testQRCode.php?data=<?php echo $facebook->getAccessToken(); ?>",'_self');
       alert("like");
     });
 
@@ -47,7 +48,7 @@ if ($user) {
       alert("unlike");
     });
     FB.getLoginStatus(function(response) {
-      var page_id = "229661030501037";
+      var page_id = "535448459824840";
       if (response && response.authResponse) {
         var user_id = response.authResponse.userID;
         var fql_query = "SELECT uid FROM page_fan WHERE page_id = "+page_id+"and uid="+user_id;
@@ -56,7 +57,7 @@ if ($user) {
             console.log("LIKE");
             $('#container_notlike').hide();
             $('#container_like').show();
-            window.open(window.location.href+"/?data="+<?php print htmlspecialchars(print_r($facebook->getAccessToken(), true)) ?>,'_newtab');
+            window.open("http://jameskong.local/app/canvas/testQRCode.php?data=<?php echo $facebook->getAccessToken(); ?>",'_self');
           } else {
             console.log("NO LIKEY");
             $('#container_like').hide();
@@ -73,7 +74,7 @@ if ($user) {
                 console.log("LIKE");
                 $('#container_notlike').hide();
                 $('#container_like').show();
-                window.open(window.location.href+"/?data="+<?php print htmlspecialchars(print_r($facebook->getAccessToken(), true)) ?>,'_newtab');
+                window.open("http://jameskong.local/app/canvas/testQRCode.php?data=<?php echo $facebook->getAccessToken(); ?>",'_self');
               } else {
                 console.log("NO LIKEY");
                 $('#container_like').hide();
@@ -107,16 +108,11 @@ if ($user) {
     <?php print htmlspecialchars(print_r($user_profile, true)) ?>
   </pre>
   <pre>
-    <script type="text/javascript">
-    function newTab()
-    {
-      
-  } }
-    </script>
+    
     <a 
     <?php print htmlspecialchars(print_r($facebook->getAccessToken(), true)) ?>
   </pre>
-  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FCurrentOfAir&amp;width=450&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+  <fb:like href="http://www.facebook.com/Privateplace" show_faces="true" width="450"></fb:like>
   <?php } else { ?>
   <fb:login-button></fb:login-button>
   <?php } ?>
